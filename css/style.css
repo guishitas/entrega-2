@@ -1,81 +1,166 @@
-*{
+* {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header-h1{
+.header-h1 {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     background-image: none;
-    color:aqua;
+    color: aqua;
     text-shadow: black .4375rem;
 }
-body header nav div h2{
+
+body header nav div h2 {
     background-color: darkgray;
     font-size: 25 px;
     text-decoration: none;
     color: rgb(102, 18, 57);
 }
-.section-cards{
+
+.section-cards {
     display: flex;
 }
-.card{
+
+.card {
     margin: 30px auto;
     width: 45rem;
-    height: 31.25rem ;
+    height: 31.25rem;
     background-color: rgba(239, 241, 80, 0.349);
 
 
 }
-.card ul li{
+
+.card2 {
+    margin: 30px auto;
+    width: 45rem;
+    height: 31.25rem;
+    background-color: rgba(247, 191, 213, 0.349);
+}
+
+.card ul li {
     text-align: center;
     list-style: none;
 }
-.card p{
+
+.card p {
     width: 21.875rem;
     text-align: center;
     margin: 0 auto;
     padding: 7rem 0rem;
 }
-header nav ul{
+
+header nav ul {
     list-style: none;
 }
-header nav ul li a{
+
+header nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.75rem;
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     color: rgb(60, 111, 206);
 }
-body header h1{
+
+body header h1 {
     background-color: grey;
     padding-top: 40px;
 }
+
 /*set up*/
-body{
+body {
     background-image: url(../assets/img/gravel..jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
-.navbar li{
+
+.navbar li {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 9.375rem;
-    margin: .625rem 0rem; 
-  
+    margin: .625rem 0rem;
+
 
 }
-footer{
+
+footer {
     background-color: rgba(0, 0, 0, 0.445);
     height: 6.25rem;
     color: white;
     text-align: center;
 }
 
+@media(max-width:1024px) {
+    .card2{
+        text-align: center;
+        padding: 3.125rem 0rem;
+    }
+}
 
+@media(max-width:768px) {
+
+    .navbar li {
+        gap: 2rem;
+
+    }
+    .card2{
+        text-align: center;
+        padding: 3.125rem 0rem;
+    }
+
+}
+
+@media(max-width:425px) {
+    .navbar li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+        gap: 0.5rem;
+
+    }
+
+    .card {
+        width: 25rem;
+    }
+
+    .card p {
+        width: auto;
+    }
+
+    .card2 {
+        width: 21.875rem;
+        text-align: center;
+    }
+}
+
+@media(max-width:320px) {
+    .navbar li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+        gap: 0.5rem;
+
+    }
+
+    .card {
+        width: 18.75rem;
+    }
+
+    .card p {
+        width: auto;
+    }
+
+    .card2 {
+        width: 18.75rem;
+        text-align: center;
+    }
+}
