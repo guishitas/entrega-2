@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: none;
+    color:aqua;
+    text-shadow: black .4375rem;
+}
+body header nav div h2{
+    background-color: darkgray;
+    font-size: 25 px;
+    text-decoration: none;
+    color: rgb(102, 18, 57);
+}
+.section-cards{
+    display: flex;
+}
+.card{
+    margin: 30px auto;
+    width: 45rem;
+    height: 31.25rem ;
+    background-color: rgba(239, 241, 80, 0.349);
+
+
+}
+.card ul li{
+    text-align: center;
+    list-style: none;
+}
+.card p{
+    width: 21.875rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 7rem 0rem;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.75rem;
+}
+header nav ul li a:hover{
+    color: rgb(60, 111, 206);
+}
+body header h1{
+    background-color: grey;
+    padding-top: 40px;
+}
+/*set up*/
+body{
+    background-image: url(../assets/img/gravel..jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.navbar li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9.375rem;
+    margin: .625rem 0rem; 
+  
+
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 6.25rem;
+    color: white;
+    text-align: center;
+}
+
+
