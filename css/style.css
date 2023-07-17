@@ -7,12 +7,21 @@
 
 .header-h1 {
     text-align: center;
-    font-size: 9.375rem;
+    font-size: 7.375rem;
     font-weight: bold;
-    background-image: none;
     color: rgb(144, 160, 102);
     text-shadow: 1.875rem 1.875rem 1.875rem cornflowerblue;
 }
+.RollinG-h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    font-size: 12.375rem;
+    font-weight: bold;
+    color: rgb(144, 160, 102);
+    text-shadow: 1.875rem 1.875rem 1.875rem cornflowerblue;
+}
+
 
 .introduccion p {
     text-align: center;
@@ -108,6 +117,7 @@ footer {
     margin-top: auto;
 }
 
+
 /*-------cominezo de MEDIA QUERIS--------*/
 
 @media(max-width:1024px) {
@@ -128,7 +138,7 @@ footer {
 
     .card2 {
         text-align: center;
-        padding: 3.125rem 0rem;
+        padding: 2.8125rem 0rem;
     }
 
 }
@@ -176,6 +186,9 @@ footer {
         gap: 0.5rem;
 
     }
+    .header-h1{
+        font-size: 7,375rem;
+    }
 
     .card {
         width: 18.75rem;
@@ -186,7 +199,11 @@ footer {
     }
 
     .card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 18.75rem;
         text-align: center;
+        height: 35rem;
     }
 }
