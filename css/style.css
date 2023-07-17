@@ -7,18 +7,28 @@
 
 .header-h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 9.375rem;
     font-weight: bold;
     background-image: none;
-    color: aqua;
-    text-shadow: black .4375rem;
+    color: rgb(144, 160, 102);
+    text-shadow: 1.875rem 1.875rem 1.875rem cornflowerblue;
+}
+
+.introduccion p {
+    text-align: center;
+    font-size: 1.5625rem;
+    padding-right: 18.75rem;
+    margin-top: 18.75rem;
+    color: rgb(228, 92, 228);
+    background-color: rgba(70, 60, 139, 0.329);
+    background-size: 18.75rem;
 }
 
 body header nav div h2 {
     background-color: darkgray;
     font-size: 25 px;
     text-decoration: none;
-    color: rgb(102, 18, 57);
+    color: rgb(105, 4, 52);
 }
 
 .section-cards {
@@ -95,16 +105,19 @@ footer {
     height: 6.25rem;
     color: white;
     text-align: center;
+    margin-top: auto;
 }
 
-/*cominezo de MEDIA QUERIS*/
+/*-------cominezo de MEDIA QUERIS--------*/
 
 @media(max-width:1024px) {
-    .card2{
+    .card2 {
         text-align: center;
         padding: 3.125rem 0rem;
     }
 }
+
+/*-------Dispositivo tamaño tablet---------*/
 
 @media(max-width:768px) {
 
@@ -112,12 +125,15 @@ footer {
         gap: 2rem;
 
     }
-    .card2{
+
+    .card2 {
         text-align: center;
         padding: 3.125rem 0rem;
     }
 
 }
+
+/*--------Dispositivo tablet--------*/
 
 @media(max-width:425px) {
     .navbar li {
@@ -142,6 +158,14 @@ footer {
         text-align: center;
     }
 }
+
+@media(max-width:375px) {
+    .card {
+        width: 320px;
+    }
+}
+
+/*-------Dispositivo MOBILE--------*/
 
 @media(max-width:320px) {
     .navbar li {
