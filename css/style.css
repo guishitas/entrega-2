@@ -97,6 +97,8 @@ footer {
     text-align: center;
 }
 
+/*cominezo de MEDIA QUERIS*/
+
 @media(max-width:1024px) {
     .card2{
         text-align: center;
