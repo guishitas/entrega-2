@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "gui-fonts";
+    src: url("../assets/fonts/caviar_dreams.zip");
+}
+
 .header-h1 {
     text-align: center;
     font-size: 7.375rem;
@@ -12,7 +17,8 @@
     color: rgb(144, 160, 102);
     text-shadow: 1.875rem 1.875rem 1.875rem cornflowerblue;
 }
-.RollinG-h1{
+
+.RollinG-h1 {
     text-align: center;
     margin-top: 1rem;
     margin-left: 20rem;
@@ -24,8 +30,12 @@
 
 
 .introduccion p {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: 4.375rem 9.375rem 6.25rem 1.25rem;
     text-align: center;
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
     padding-right: 18.75rem;
     margin-top: 18.75rem;
     color: rgb(228, 92, 228);
@@ -77,6 +87,7 @@ header nav ul {
 }
 
 header nav ul li a {
+    font-family: "gui-fonts";
     text-decoration: none;
     color: white;
     font-size: 1.75rem;
@@ -89,6 +100,49 @@ header nav ul li a:hover {
 body header h1 {
     background-color: grey;
     padding-top: 40px;
+}
+
+/*clases*/
+
+.clases h2 {
+    background-color: rgba(233, 44, 202, 0.404);
+    padding: 50px;
+    border-radius: 35px;
+    margin-left: 40px;
+
+}
+
+
+.clases {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.section-clases {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+/*store*/
+
+.class-img {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 250px;
+
+}
+
+
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    padding: .625rem;
+    font-size: 1.25rem;
+    text-align: center;
+
 }
 
 /*set up*/
@@ -116,7 +170,8 @@ footer {
     text-align: center;
     margin-top: auto;
 }
-.card2{
+
+.card2 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -132,85 +187,160 @@ footer {
         text-align: center;
         padding: 3.125rem 0rem;
     }
-}
 
-/*-------Dispositivo tamaño tablet---------*/
-
-@media(max-width:768px) {
-
-    .navbar li {
-        gap: 2rem;
-
-    }
-
-    .card2 {
-        text-align: center;
-        padding: 2.8125rem 0rem;
-    }
-
-}
-
-/*--------Dispositivo tablet--------*/
-
-@media(max-width:425px) {
-    .navbar li {
+    .section-clases {
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-items: center;
-        gap: 0.5rem;
-
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 200px;
     }
 
-    .card {
-        width: 25rem;
-    }
-
-    .card p {
-        width: auto;
-    }
-
-    .card2 {
-        width: 21.875rem;
-        text-align: center;
-    }
-}
-
-@media(max-width:375px) {
-    .card {
-        width: 320px;
-    }
-}
-
-/*-------Dispositivo MOBILE--------*/
-
-@media(max-width:320px) {
-    .navbar li {
+    .class-img {
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-items: center;
-        gap: 0.5rem;
-
-    }
-    .header-h1{
-        font-size: 7,375rem;
+        flex-direction: row;
+        flex-wrap: nowrap
     }
 
-    .card {
-        width: 18.75rem;
+    /*-------Dispositivo tamaño tablet---------*/
+
+    @media(max-width:768px) {
+
+        .navbar li {
+            gap: 2rem;
+
+        }
+
+        .card2 {
+            text-align: center;
+            padding: 2.8125rem 0rem;
+        }
+
+        .section-clases {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 5.625rem;
+        }
+        .footer {
+            background-color: rgba(0, 0, 0, 0.445);
+            height: 6.25rem;
+            color: white;
+            text-align: center;
+            margin-top: auto;
+        }
+
     }
 
-    .card p {
-        width: auto;
-    }
+    /*--------Dispositivo tablet--------*/
 
-    .card2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 18.75rem;
-        text-align: center;
-        height: 35rem;
-    }
-}
+    @media(max-width:425px) {
+        .navbar li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-items: center;
+            gap: 0.5rem;
+
+        }
+
+        .card {
+            width: 25rem;
+        }
+
+        .card p {
+            width: auto;
+        }
+
+        .card2 {
+            width: 21.875rem;
+            text-align: center;
+        }
+
+        .section-clases {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 3.75rem;
+        }
+
+        .class-img {
+            display: flex;
+            flex-direction: row;
+            margin-left: 1.25rem;
+        }
+
+        @media(max-width:375px) {
+            .card {
+                width: 320px;
+            }
+
+            .section-clases {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-right: 2.5rem;
+            }
+        }
+
+        /*-------Dispositivo MOBILE--------*/
+
+        @media(max-width:320px) {
+            .navbar li {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-items: center;
+                gap: 0.5rem;
+
+            }
+
+            .RollinG-h1 {
+                display: flex;
+                flex-direction: column;
+                padding: 50%;
+                font-size: 5.625rem;
+                text-align: center;
+            }
+
+            .class-img {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .card {
+                width: 18.75rem;
+            }
+
+            .card p {
+                width: auto;
+            }
+
+            .card2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 18.75rem;
+                text-align: center;
+                height: 35rem;
+            }
+
+            .section-clases {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-left: 20px;
+            }
+
+            .class-img {
+                display: flex;
+                flex-direction: row;
+            }
+            footer {
+                background-color: rgba(0, 0, 0, 0.445);
+                height: 6.25rem;
+                color: white;
+                text-align: center;
+                margin-top: auto;
+            }
+        }
