@@ -127,11 +127,42 @@ body header h1 {
 /*store*/
 
 .class-img {
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 250px;
+    background-image: url(../assets/img/igor-voronetski-S9M9AaB2ODw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
 
+}
+.class-img4 {
+    background-image: url(../assets/img/coen-van-de-broek-l6paKWDnDaE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+
+}
+.class-img3 {
+    background-image: url(../assets/img/socks\ gravel.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+.class-img2 {
+    background-image: url(../assets/img/tyrel-johnson-zI7O1I3UBPM-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.container-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 
