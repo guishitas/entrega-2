@@ -1,7 +1,19 @@
 @media(max-width:1024px) {
+    .header-h1{
+        margin-bottom: 65px;
+    }
     .card2 {
         text-align: center;
         padding: 3.125rem 0rem;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center; */
+        align-items: center;
+        height: fit-content;
     }
 
     /*.section-clases {
@@ -11,10 +23,40 @@
         margin-left: 200px;
     }*/
 
+    .productos {
+        display: flex;
+        flex-direction: row;
+        padding: 0.625rem;
+        font-size: 1.65rem;
+        text-align: center;
+        color: lemonchiffon;
+    }
+
     .class-img {
         display: flex;
         flex-direction: row;
-        
-        flex-wrap: nowrap
+        flex-wrap: nowrap;
+        width: 220px;
+        height: 230px;
+    }
+    .class-img2{
+        width: 220px;
+        height: 230px;
+    }
+    .class-img3{
+        width: 220px;
+        height: 230px;
+    }
+    .class-img4{
+        width: 220px;
+        height: 230px;
+    }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.445);
+        height: 6.25rem;
+        color: white;
+        text-align: center;
+        margin-top: 180px;
     }
 }
