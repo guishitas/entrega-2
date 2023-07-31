@@ -7,7 +7,8 @@
         gap: 0.5rem;
 
     }
-    .RollinG-h1{
+
+    .RollinG-h1 {
         font-size: 100px;
     }
 
@@ -17,14 +18,23 @@
 
     .card p {
         width: auto;
+        font-size: 22px;
+        color: #3c0465;
+        padding-top: 30px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 2rem 0rem;
+
     }
+
     .card2 {
         width: 21.875rem;
         height: fit-content;
         text-align: center;
         font-size: 20px;
     }
-    .header-h1{
+
+    .header-h1 {
         margin-bottom: 65px;
     }
 
@@ -39,12 +49,12 @@
     }
 }
 
-    @media(max-width:375px) {
-        .card {
-            width: 320px;
-        }
-
-        .section-clases {
-          grid-template-columns: auto;
-        }
+@media(max-width:375px) {
+    .card {
+        width: 320px;
     }
+
+    .section-clases {
+        grid-template-columns: auto;
+    }
+}
