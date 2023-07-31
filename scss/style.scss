@@ -1,16 +1,16 @@
 @import "./base/reset";
 
+@import "./components/header";
+@import "./components/titulo";
+@import "./components/cards";
+@import "./components/clases";
+@import "./components/cierre";
 
-@import "./componets/header";
-@import "./componets/introduccion";
-@import "./componets/cards";
-@import "./componets/clases";
-@import "./utilities/cierre";
-@import "./layout/media320px";
-@import "./layout/media425px";
-@import "./layout/media630px";
-@import "./layout/media768px";
-@import "./layout/media1024px";
+@import "./media/media1024px";
+@import "./media/media768px";
+@import "./media/media630px";
+@import "./media/media425px";
+@import "./media/media320px";
 
 
 
