@@ -1,0 +1,54 @@
+
+.clases h2 {
+    background-color: rgba(233, 44, 202, 0.404);
+    padding: 50px;
+    border-radius: 35px;
+
+}
+
+
+.clases {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.section-clases {
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+/*store*/
+
+.class-img {
+    background-image: url(../assets/img/igor-voronetski-S9M9AaB2ODw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+}
+.class-img4 {
+    background-image: url(../assets/img/coen-van-de-broek-l6paKWDnDaE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+}
+.class-img3 {
+    background-image: url(../assets/img/socks\ gravel.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.class-img2 {
+    background-image: url(../assets/img/tyrel-johnson-zI7O1I3UBPM-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}

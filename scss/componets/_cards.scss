@@ -1,0 +1,31 @@
+.section-cards {
+    display: flex;
+}
+
+.card {
+    margin: 30px auto;
+    width: 45rem;
+    height: 31.25rem;
+    background-color: rgba(239, 241, 80, 0.349);
+
+
+}
+
+.card2 {
+    margin: 30px auto;
+    width: 45rem;
+    height: 31.25rem;
+    background-color: rgba(247, 191, 213, 0.349);
+}
+
+.card ul li {
+    text-align: center;
+    list-style: none;
+}
+
+.card p {
+    width: 21.875rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 7rem 0rem;
+}

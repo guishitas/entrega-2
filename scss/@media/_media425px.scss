@@ -1,0 +1,43 @@
+@media(max-width:425px) {
+    .navbar li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+        gap: 0.5rem;
+
+    }
+
+    .card {
+        width: 25rem;
+    }
+
+    .card p {
+        width: auto;
+    }
+
+    .card2 {
+        width: 21.875rem;
+        text-align: center;
+    }
+
+    .section-clases {
+        grid-template-columns: auto;
+    }
+
+    .class-img {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1.25rem;
+    }
+}
+
+    @media(max-width:375px) {
+        .card {
+            width: 320px;
+        }
+
+        .section-clases {
+          grid-template-columns: auto;
+        }
+    }

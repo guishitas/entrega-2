@@ -1,0 +1,57 @@
+@media(max-width:320px) {
+    .navbar li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+        gap: 0.5rem;
+
+    }
+
+    .RollinG-h1 {
+        display: flex;
+        flex-direction: column;
+        padding: 50%;
+        font-size: 5.625rem;
+        text-align: center;
+    }
+
+    .class-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 18.75rem;
+    }
+
+    .card p {
+        width: auto;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18.75rem;
+        text-align: center;
+        height: 35rem;
+    }
+
+    .section-clases {
+        grid-template-columns: auto;
+    }
+
+    .class-img {
+        display: flex;
+        flex-direction: row;
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.445);
+        height: 6.25rem;
+        color: white;
+        text-align: center;
+        margin-top: auto;
+    }
+}

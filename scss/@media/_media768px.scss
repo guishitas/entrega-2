@@ -1,0 +1,35 @@
+@media(max-width:768px) {
+
+    .navbar li {
+        gap: 2rem;
+
+    }
+
+    .card2 {
+        text-align: center;
+        padding: 2.8125rem 0rem;
+    }
+
+    /*.section-clases {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 5.625rem;
+    }*/
+    .section-clases {
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        grid-auto-rows: auto;
+        justify-content: center;
+        gap: 20px;
+        justify-items: center;
+    }
+    .footer {
+        background-color: rgba(0, 0, 0, 0.445);
+        height: 6.25rem;
+        color: white;
+        text-align: center;
+        margin-top: auto;
+    }
+
+}

@@ -1,0 +1,52 @@
+.container-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    padding: .625rem;
+    font-size: 1.25rem;
+    text-align: center;
+
+}
+
+/*set up*/
+body {
+    background-image: url(../assets/img/gravel..jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.navbar li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9.375rem;
+    margin: .625rem 0rem;
+
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 6.25rem;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
